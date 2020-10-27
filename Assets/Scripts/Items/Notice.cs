@@ -5,22 +5,16 @@ using UnityEngine;
 public class Notice : MonoBehaviour
 {
     public GameObject Object;
-    public float TimeAnim = 2f;
+    public float TimeAnim = 3f;
     private float time;
 
     public void OnMouseDown()
     {
-        if (!Object.activeSelf)// если повернуть камеру во время того как 2 секунды ещё не прошли, то эта штука зациклится навечно.
+        if (!Object.activeSelf)
         {
         Object.SetActive(true);
-        StartCoroutine(DisableObject());
+        Object.GetComponent<NoticeClose>().StartCore(TimeAnim);
         }
 
-    }
-
-    IEnumerator DisableObject()
-    {
-        yield return new WaitForSeconds(TimeAnim);
-        Object.SetActive(false);
     }
 }

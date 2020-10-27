@@ -8,7 +8,7 @@ public class PlayAnimation : MonoBehaviour
     public float TimeAnim = 10f;
     public GameObject EnableObj;
 
-    public void OnMouseDown()
+    public void OnMouseUp()
     {
         Object.GetComponent<Animator>().SetBool("Bool", true);
         if (EnableObj != null)

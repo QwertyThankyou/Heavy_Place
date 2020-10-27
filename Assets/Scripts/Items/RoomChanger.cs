@@ -7,7 +7,7 @@ public class RoomChanger : MonoBehaviour
 {
     public int NextSceneNumber;
 
-    public void OnMouseDown()
+    public void OnMouseUp()
     {
         SceneManager.LoadScene(NextSceneNumber);
     }
