@@ -1319,7 +1319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302516533}
   m_Layer: 5
-  m_Name: Dilogue2
+  m_Name: Dialogue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1879,7 +1879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 411990203}
   m_Layer: 5
-  m_Name: Dilogue4
+  m_Name: Dialogue4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2056,7 +2056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470050771}
   m_Layer: 5
-  m_Name: Dilogue1
+  m_Name: Dialogue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3408,7 +3408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675058736}
   m_Layer: 5
-  m_Name: Dilogue1
+  m_Name: Dialogue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3907,7 +3907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 734328483}
   m_Layer: 5
-  m_Name: Dilogue2
+  m_Name: Dialogue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4770,7 +4770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864247274}
   m_Layer: 5
-  m_Name: Dilogue5
+  m_Name: Dialogue5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5423,7 +5423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 898881749}
   m_Layer: 5
-  m_Name: Dilogue3
+  m_Name: Dialogue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6404,7 +6404,7 @@ GameObject:
   - component: {fileID: 961138340}
   - component: {fileID: 961138339}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [LiberationSans SDF Material + LiberationSans SDF Atlas]
+  m_Name: TMP SubMeshUI [Lato-Medium SDF Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6448,7 +6448,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_spriteAsset: {fileID: 0}
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
@@ -6548,7 +6548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962601766}
   m_Layer: 5
-  m_Name: Dilogue4
+  m_Name: Dialogue4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6700,7 +6700,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1747995217}
   m_Father: {fileID: 1295850931}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6810,7 +6811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1005960604}
   m_Layer: 5
-  m_Name: Dilogue5
+  m_Name: Dialogue5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7365,7 +7366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1080005855}
   m_Layer: 5
-  m_Name: Dilogue3
+  m_Name: Dialogue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10444,7 +10445,8 @@ MonoBehaviour:
     ?\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a96276ea7366aa42983942a928ce463, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -8085455864932464578, guid: 7a96276ea7366aa42983942a928ce463,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10706,6 +10708,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2056842831}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1747995216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747995217}
+  - component: {fileID: 1747995218}
+  m_Layer: 0
+  m_Name: ShadowCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747995217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747995216}
+  m_LocalRotation: {x: 0.23911762, y: -0.36964363, z: 0.09904572, w: 0.89239925}
+  m_LocalPosition: {x: -954.91, y: -534.33, z: -5.09}
+  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_Children: []
+  m_Father: {fileID: 997409689}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 30.000002, y: -45.000004, z: 0}
+--- !u!65 &1747995218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747995216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1751480384
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2774,7 +2774,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u043E\u0436. \u042D\u0442\u043E \u043C\u043D\u043E\u0433\u043E\u0435
+  m_text: "\u042D\u0442\u043E \u043D\u043E\u0436. \u042D\u0442\u043E \u043C\u043D\u043E\u0433\u043E\u0435
     \u043E\u0431\u044A\u044F\u0441\u043D\u044F\u0435\u0442."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a96276ea7366aa42983942a928ce463, type: 2}
@@ -5435,7 +5435,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1760368324}
   m_Father: {fileID: 601835096}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6561,6 +6562,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740723156}
   m_CullTransparentMesh: 0
+--- !u!1 &1760368323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760368324}
+  - component: {fileID: 1760368325}
+  m_Layer: 0
+  m_Name: ShadowCube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760368324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760368323}
+  m_LocalRotation: {x: 0.23911762, y: -0.36964363, z: 0.09904572, w: 0.89239925}
+  m_LocalPosition: {x: -954.91, y: -534.33, z: -5.09}
+  m_LocalScale: {x: 50, y: 50, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1438785715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 30.000002, y: -45.000004, z: 0}
+--- !u!65 &1760368325
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760368323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1763346530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1634351802689424, guid: 123d7eee89ce3d14faecef772a63a9d0,

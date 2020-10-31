@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4012786841156344}
   - component: {fileID: 33439228241967360}
   - component: {fileID: 23032737009350322}
-  - component: {fileID: 64021420335387950}
   m_Layer: 0
   m_Name: SM_Prop_Kitchen_CounterEnd_01
   m_TagString: Untagged
@@ -80,17 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64021420335387950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313768897056936}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43459899034303354, guid: f3083a88e8d543a4c8af730db101dbbf, type: 2}
